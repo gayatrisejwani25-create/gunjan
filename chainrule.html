@@ -25,7 +25,6 @@
             padding: 0 20px;
         }
  
-        /* Header Styles */
         header {
             background: linear-gradient(135deg, #2c3e50, #1a2530);
             color: white;
@@ -60,26 +59,17 @@
             border-radius: 8px;
             background-color: white;
             padding: 5px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        }
- 
-        .pcce-logo-text {
-            display: flex;
-            flex-direction: column;
         }
  
         .pcce-logo-text .main {
             font-size: 20px;
             font-weight: 700;
             color: #fff;
-            line-height: 1.2;
         }
  
         .pcce-logo-text .sub {
             font-size: 12px;
             color: #ecf0f1;
-            opacity: 0.9;
-            margin-top: 2px;
         }
  
         .virtual-labs-logo {
@@ -96,6 +86,7 @@
         .virtual-labs-logo h1 {
             font-size: 26px;
             font-weight: 600;
+            color: white;
         }
  
         .virtual-labs-logo span {
@@ -106,6 +97,7 @@
             display: flex;
             align-items: center;
             gap: 10px;
+            color: white;
         }
  
         .user-info i {
@@ -113,62 +105,6 @@
             color: #3498db;
         }
  
-        /* Main Content Layout */
-        .main-content {
-            display: flex;
-            margin-top: 30px;
-            gap: 30px;
-        }
- 
-        /* Sidebar Navigation */
-        .sidebar {
-            flex: 0 0 280px;
-            background-color: white;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
-            padding: 20px 0;
-            height: fit-content;
-        }
- 
-        .sidebar h3 {
-            padding: 0 20px 15px;
-            color: #2c3e50;
-            border-bottom: 1px solid #eee;
-            margin-bottom: 15px;
-        }
- 
-        .nav-menu {
-            list-style: none;
-        }
- 
-        .nav-item {
-            padding: 12px 25px;
-            border-left: 4px solid transparent;
-            transition: all 0.3s ease;
-            cursor: pointer;
-            display: flex;
-            align-items: center;
-            gap: 12px;
-        }
- 
-        .nav-item:hover {
-            background-color: #f8f9fa;
-            border-left-color: #3498db;
-        }
- 
-        .nav-item.active {
-            background-color: #f0f7ff;
-            border-left-color: #3498db;
-            color: #3498db;
-            font-weight: 500;
-        }
- 
-        .nav-item i {
-            width: 20px;
-            text-align: center;
-        }
- 
-        /* Content Area */
         .content {
             flex: 1;
             background-color: white;
@@ -176,23 +112,13 @@
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
             padding: 30px;
             min-height: 600px;
+            margin-top: 30px;
         }
  
         .content-header {
             margin-bottom: 30px;
             padding-bottom: 15px;
             border-bottom: 1px solid #eee;
-        }
- 
-        .breadcrumb {
-            font-size: 14px;
-            color: #7f8c8d;
-            margin-bottom: 8px;
-        }
- 
-        .breadcrumb a {
-            color: #3498db;
-            text-decoration: none;
         }
  
         .content-header h2 {
@@ -206,7 +132,6 @@
             margin-top: 5px;
         }
  
-        /* Aim Sections */
         .aim-sections {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -252,85 +177,6 @@
             color: #7f8c8d;
         }
  
-        /* Question Section */
-        .question-section {
-            background-color: #f8f9fa;
-            border-radius: 8px;
-            padding: 25px;
-            margin-bottom: 30px;
-            border-left: 5px solid #3498db;
-        }
- 
-        .question-section h3 {
-            color: #2c3e50;
-            margin-bottom: 15px;
-            font-size: 22px;
-        }
- 
-        .question-text {
-            font-size: 18px;
-            color: #2c3e50;
-            margin-bottom: 20px;
-            line-height: 1.5;
-        }
- 
-        /* Feedback Section */
-        .feedback-section {
-            background-color: #e8f4fc;
-            border-radius: 8px;
-            padding: 25px;
-            border: 1px solid #d1e7ff;
-        }
- 
-        .feedback-header {
-            display: flex;
-            align-items: center;
-            gap: 15px;
-            margin-bottom: 20px;
-        }
- 
-        .feedback-header i {
-            font-size: 28px;
-            color: #3498db;
-        }
- 
-        .feedback-header h3 {
-            color: #2c3e50;
-            font-size: 22px;
-        }
- 
-        .feedback-content {
-            margin-bottom: 25px;
-        }
- 
-        .feedback-content p {
-            margin-bottom: 15px;
-            color: #2c3e50;
-            line-height: 1.6;
-        }
- 
-        .feedback-button {
-            background: linear-gradient(to right, #3498db, #2c80b9);
-            color: white;
-            border: none;
-            padding: 12px 30px;
-            font-size: 16px;
-            border-radius: 6px;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            font-weight: 500;
-            display: inline-flex;
-            align-items: center;
-            gap: 10px;
-        }
- 
-        .feedback-button:hover {
-            background: linear-gradient(to right, #2c80b9, #216794);
-            transform: translateY(-2px);
-            box-shadow: 0 5px 15px rgba(52, 152, 219, 0.3);
-        }
- 
-        /* Footer */
         footer {
             margin-top: 40px;
             padding: 20px 0;
@@ -338,79 +184,6 @@
             color: #7f8c8d;
             font-size: 14px;
             border-top: 1px solid #eee;
-        }
- 
-        .footer-logo {
-            display: inline-block;
-            margin: 0 5px;
-            font-weight: bold;
-            color: #2c3e50;
-        }
- 
-        /* Responsive Design */
-        @media (max-width: 992px) {
-            .main-content {
-                flex-direction: column;
-            }
-            
-            .sidebar {
-                width: 100%;
-            }
-            
-            .aim-sections {
-                grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
-            }
-        }
- 
-        @media (max-width: 768px) {
-            .header-container {
-                flex-direction: column;
-                gap: 20px;
-                text-align: center;
-            }
-            
-            .logo-section {
-                flex-direction: column;
-                gap: 20px;
-                width: 100%;
-            }
-            
-            .pcce-logo-container {
-                border-right: none;
-                padding-right: 0;
-                border-bottom: 2px solid rgba(255, 255, 255, 0.2);
-                padding-bottom: 20px;
-                justify-content: center;
-                width: 100%;
-            }
-            
-            .virtual-labs-logo {
-                justify-content: center;
-            }
-            
-            .aim-sections {
-                grid-template-columns: repeat(2, 1fr);
-            }
-        }
- 
-        @media (max-width: 576px) {
-            .aim-sections {
-                grid-template-columns: 1fr;
-            }
-            
-            .content {
-                padding: 20px;
-            }
-            
-            .pcce-logo-container {
-                flex-direction: column;
-                text-align: center;
-            }
-            
-            .pcce-logo-img {
-                width: 70px;
-                height: 70px;
-            }
         }
  
         /* Card Page Navigation */
@@ -429,7 +202,7 @@
  
         @keyframes fadeInPage {
             from { opacity: 0; transform: translateY(12px); }
-            to   { opacity: 1; transform: translateY(0); }
+            to { opacity: 1; transform: translateY(0); }
         }
  
         .back-btn {
@@ -446,13 +219,11 @@
             cursor: pointer;
             margin-bottom: 24px;
             transition: all 0.25s ease;
-            letter-spacing: 0.4px;
         }
  
         .back-btn:hover {
             background: linear-gradient(to right, #1a252f, #2c3e50);
             transform: translateX(-3px);
-            box-shadow: 0 4px 12px rgba(44, 62, 80, 0.3);
         }
  
         .card-page-header {
@@ -542,7 +313,6 @@
         .submit-btn:hover {
             background: linear-gradient(to right, #2c80b9, #216794);
             transform: translateY(-2px);
-            box-shadow: 0 4px 12px rgba(52,152,219,0.3);
         }
  
         .ref-list {
@@ -562,7 +332,6 @@
         .ref-list li i {
             color: #3498db;
             margin-top: 3px;
-            flex-shrink: 0;
         }
  
         .contributors-grid {
@@ -612,7 +381,8 @@
         }
  
         .feedback-form input:focus,
-        .feedback-form select:focus {
+        .feedback-form select:focus,
+        .feedback-form textarea:focus {
             border-color: #3498db;
         }
  
@@ -629,7 +399,8 @@
             transition: color 0.2s;
         }
  
-        .star-rating i.active {
+        .star-rating i.active,
+        .star-rating i:hover {
             color: #f39c12;
         }
  
@@ -652,6 +423,36 @@
             color: #3498db;
             opacity: 0.6;
         }
+ 
+        @media (max-width: 768px) {
+            .header-container {
+                flex-direction: column;
+                gap: 20px;
+                text-align: center;
+            }
+            
+            .logo-section {
+                flex-direction: column;
+                gap: 20px;
+            }
+            
+            .pcce-logo-container {
+                border-right: none;
+                padding-right: 0;
+                border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+                padding-bottom: 20px;
+            }
+            
+            .aim-sections {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+ 
+        @media (max-width: 576px) {
+            .aim-sections {
+                grid-template-columns: 1fr;
+            }
+        }
     </style>
 </head>
 <body>
@@ -661,10 +462,10 @@
             <div class="logo-section">
                 <div class="pcce-logo-container">
                     <img src="https://raw.githubusercontent.com/dineshkute90/virtual_lab_LAUC/main/pccoe.png"
-                         alt="PCOE Logo"
+                         alt="PCCoE Logo"
                          class="pcce-logo-img"
                          id="pcceLogo"
-                         onerror="this.onerror=null; this.src='https://via.placeholder.com/60x60/2c3e50/ffffff?text=PCOE';">
+                         onerror="this.src='https://via.placeholder.com/60x60/2c3e50/ffffff?text=PCCoE';">
                     <div class="pcce-logo-text">
                         <div class="main">APPLIED SCIENCES & HUMANITIES</div>
                         <div class="sub">Pimpri Chinchwad College of Engineering</div>
@@ -682,7 +483,7 @@
         </div>
     </header>
  
-    <main class="container" style="padding-top: 30px; padding-bottom: 10px;">
+    <main class="container">
  
         <!-- MAIN DASHBOARD -->
         <div id="main-dashboard">
@@ -692,25 +493,132 @@
                     <p>Derivatives of Composite Functions | Engineering Mathematics</p>
                 </div>
                 <div class="aim-sections">
-                    <div class="section-card active" data-target="page-aim"><i class="fas fa-bullseye"></i><h3>Aim</h3><p>Objective</p></div>
-                    <div class="section-card" data-target="page-theory"><i class="fas fa-book"></i><h3>Theory</h3><p>Chain Rule explained</p></div>
-                    <div class="section-card" data-target="page-pretest"><i class="fas fa-question-circle"></i><h3>Pretest</h3><p>Pre-assessment</p></div>
-                    <div class="section-card" data-target="page-simulation"><i class="fas fa-desktop"></i><h3>Simulation</h3><p>Interactive demo</p></div>
-                    <div class="section-card" data-target="page-posttest"><i class="fas fa-clipboard-check"></i><h3>Posttest</h3><p>Assessment</p></div>
-                    <div class="section-card" data-target="page-references"><i class="fas fa-book-open"></i><h3>References</h3><p>Resources</p></div>
-                    <div class="section-card" data-target="page-contributors"><i class="fas fa-users"></i><h3>Contributors</h3><p>Team</p></div>
-                    <div class="section-card" data-target="page-feedback"><i class="fas fa-comment-alt"></i><h3>Feedback</h3><p>Share experience</p></div>
+                    <div class="section-card" data-target="page-aim">
+                        <i class="fas fa-bullseye"></i>
+                        <h3>Aim</h3>
+                        <p>Objective of the experiment</p>
+                    </div>
+                    <div class="section-card" data-target="page-theory">
+                        <i class="fas fa-book"></i>
+                        <h3>Theory</h3>
+                        <p>Background concepts</p>
+                    </div>
+                    <div class="section-card" data-target="page-pretest">
+                        <i class="fas fa-question-circle"></i>
+                        <h3>Pretest</h3>
+                        <p>Pre-experiment assessment</p>
+                    </div>
+                    <div class="section-card" data-target="page-simulation">
+                        <i class="fas fa-desktop"></i>
+                        <h3>Simulation</h3>
+                        <p>Interactive simulation</p>
+                    </div>
+                    <div class="section-card" data-target="page-posttest">
+                        <i class="fas fa-clipboard-check"></i>
+                        <h3>Posttest</h3>
+                        <p>Post-experiment assessment</p>
+                    </div>
+                    <div class="section-card" data-target="page-references">
+                        <i class="fas fa-book-open"></i>
+                        <h3>References</h3>
+                        <p>Further reading materials</p>
+                    </div>
+                    <div class="section-card" data-target="page-contributors">
+                        <i class="fas fa-users"></i>
+                        <h3>Contributors</h3>
+                        <p>People involved</p>
+                    </div>
+                    <div class="section-card" data-target="page-feedback">
+                        <i class="fas fa-comment-alt"></i>
+                        <h3>Feedback</h3>
+                        <p>Share your experience</p>
+                    </div>
                 </div>
             </div>
         </div>
  
-        <!-- 1. AIM PAGE (Chain Rule) -->
+        <!-- AIM PAGE -->
         <div id="page-aim" class="content card-page">
-            <button class="back-btn" onclick="goBack()"><i class="fas fa-arrow-left"></i> Back</button>
-            <div class="card-page-header"><i class="fas fa-bullseye"></i><div><h2>Aim</h2><p>Objective of the experiment</p></div></div>
+            <button class="back-btn" onclick="goBack()">
+                <i class="fas fa-arrow-left"></i> Back to Dashboard
+            </button>
+            <div class="card-page-header">
+                <i class="fas fa-bullseye"></i>
+                <div>
+                    <h2>Aim</h2>
+                    <p>Objective of the experiment</p>
+                </div>
+            </div>
             <div class="page-content-box">
                 <h4>📐 Understanding the Chain Rule</h4>
                 <p>The aim of this virtual lab is to understand and apply the <strong>Chain Rule</strong> for differentiating composite functions. Students will explore how the derivative of a composite function f(g(x)) is the product of the derivative of the outer function evaluated at the inner function times the derivative of the inner function.</p>
                 <p>By the end of this experiment, learners will be able to:</p>
-                <ul style="margin-left: 20px; margin-top: 8px; color: #555; line-height: 2;">
-                    <li>State and
+                <ul style="margin-left: 20px; margin-top: 8px; line-height: 2;">
+                    <li>State and prove the Chain Rule formula: <strong>dy/dx = (dy/du) · (du/dx)</strong>.</li>
+                    <li>Differentiate composite functions including polynomials, trigonometric, exponential, and logarithmic forms.</li>
+                    <li>Apply the Chain Rule in multi-step differentiation.</li>
+                    <li>Use the Chain Rule in real-world applications like related rates problems.</li>
+                </ul>
+            </div>
+        </div>
+ 
+        <!-- THEORY PAGE -->
+        <div id="page-theory" class="content card-page">
+            <button class="back-btn" onclick="goBack()">
+                <i class="fas fa-arrow-left"></i> Back to Dashboard
+            </button>
+            <div class="card-page-header">
+                <i class="fas fa-book"></i>
+                <div>
+                    <h2>Theory: Chain Rule</h2>
+                    <p>Derivative of composite functions</p>
+                </div>
+            </div>
+            <div class="page-content-box">
+                <h4>📌 Definition</h4>
+                <p>If <em>y = f(u)</em> and <em>u = g(x)</em> are both differentiable functions, then the composite function <em>y = f(g(x))</em> is differentiable and its derivative is given by:</p>
+                <p style="background: #eaf5ff; padding: 12px; border-radius: 8px; text-align: center; font-weight: bold; margin: 15px 0;">dy/dx = (dy/du) · (du/dx) = f'(g(x)) · g'(x)</p>
+                
+                <h4>📖 General Form</h4>
+                <p>For composite function <em>h(x) = f(g(x))</em>, we have <strong>h'(x) = f'(g(x)) · g'(x)</strong>. This is often remembered as "derivative of the outside, times derivative of the inside".</p>
+                
+                <h4>🔢 Step-by-step Procedure</h4>
+                <ul style="margin-left: 20px; line-height: 2;">
+                    <li>Identify the outer function f(u) and the inner function u = g(x).</li>
+                    <li>Differentiate the outer function with respect to u → f'(u).</li>
+                    <li>Differentiate the inner function with respect to x → g'(x).</li>
+                    <li>Multiply them: f'(g(x)) * g'(x).</li>
+                </ul>
+                
+                <h4>✨ Examples</h4>
+                <ul style="margin-left: 20px;">
+                    <li><strong>Example 1:</strong> y = sin(x²) → outer: sin(u), inner: x² ⇒ dy/dx = cos(x²)·2x.</li>
+                    <li><strong>Example 2:</strong> y = (3x+1)⁵ → dy/dx = 5(3x+1)⁴·3 = 15(3x+1)⁴.</li>
+                    <li><strong>Example 3:</strong> y = e^(tan x) → dy/dx = e^(tan x)·sec²x.</li>
+                </ul>
+            </div>
+        </div>
+ 
+        <!-- PRETEST PAGE -->
+        <div id="page-pretest" class="content card-page">
+            <button class="back-btn" onclick="goBack()">
+                <i class="fas fa-arrow-left"></i> Back to Dashboard
+            </button>
+            <div class="card-page-header">
+                <i class="fas fa-question-circle"></i>
+                <div>
+                    <h2>Pretest</h2>
+                    <p>Answer before starting the experiment</p>
+                </div>
+            </div>
+            <div class="mcq-question">
+                <p>Q1. The Chain Rule is used to differentiate:</p>
+                <label class="mcq-option"><input type="radio" name="q1" value="a"> Product of two functions</label>
+                <label class="mcq-option"><input type="radio" name="q1" value="b"> Composite functions</label>
+                <label class="mcq-option"><input type="radio" name="q1" value="c"> Rational functions</label>
+                <label class="mcq-option"><input type="radio" name="q1" value="d"> Implicit functions</label>
+            </div>
+            <div class="mcq-question">
+                <p>Q2. If y = (2x+3)⁴, then dy/dx equals:</p>
+                <label class="mcq-option"><input type="radio" name="q2" value="a"> 4(2x+3)³</label>
+                <label class="mcq-option"><input type="radio" name="q2" value="b"> 8(2x+3)³</label
